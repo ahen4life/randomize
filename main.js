@@ -12,6 +12,6 @@ let changeBackgroundColor = function() {
   let yourHexaCode = ("#" + hexaCode[0] + hexaCode[1] + hexaCode[2] + hexaCode[3] + hexaCode[4] + hexaCode[5]).toString();
 
   document.getElementById("colorBox").style.backgroundColor = yourHexaCode;
-  document.getElementById("color").textContent = yourHexaCode;
-  document.getElementById("color").style.color = yourHexaCode;
+  document.getElementById("colorText").textContent = yourHexaCode;
+  document.getElementById("colorText").style.color = yourHexaCode;
 }
